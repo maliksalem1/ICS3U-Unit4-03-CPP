@@ -7,12 +7,12 @@
 #include <iostream>
 #include <string>
 
-float positiveFloat;
-int positiveInteger;
-int loopCounter = 0;
-int multiplyInt = 1;
-int squaredNumber;
-std::string positiveString;
+    float positiveFloat;
+    int positiveInteger;
+    int loopCounter = 0;
+    int multiplyInt = 1;
+    int squaredNumber;
+    std::string positiveString;
 
 int main() {
     // This function finds the square of all positive integers
@@ -29,7 +29,7 @@ int main() {
         positiveInteger = positiveFloat;
         if (positiveInteger == positiveFloat) {
             if (positiveInteger >= 0) {
-                for (int loopCounter = 0; loopCounter <= positiveInteger; loopCounter++) {
+    for (int loopCounter = 0; loopCounter <= positiveInteger; loopCounter++) {
                     squaredNumber = loopCounter * loopCounter;
                     std::cout << "" << loopCounter << "²"
                               << " = " << squaredNumber << std::endl;
